@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<h1>Web technology for developers Web APIs OscillatorNode OscillatorNode.type</h1>
+<body>
+
+<button onclick="startAudiocontext()">Start</button>
+<button onclick="stopAudiocontext()">Stop</button>
+<input min="0" step="0.01" max="1" oninput="changeGain(event)" type="range"/>
+<input min="0" step="0.01" max="1000" oninput="changeLFOGain(event)" type="range"/>
+<input min="1" step="0.01" max="500" oninput="changeLFOPitch(event)" type="range"/>
+
+<div style = "background-color:pink; padding: 10px;">
+    <button onclick="setPitch(event)">1</button>
+    <button onclick="setPitch(event)">2</button>
+    <button onclick="setPitch(event)">3</button>
+    <button onclick="setPitch(event)">4</button>
+
+</div>
+
+
+<div style = "background-color:gold; padding: 10px">
+
+    <button onclick="setShape(event)">square</button>
+    <button onclick="setShape(event)">sawtooth</button>
+    <button onclick="setShape(event)">sine</button>
+
+</div>
+
+
+<script src="script.js">
+
+</script>
+</body>
+</html>
